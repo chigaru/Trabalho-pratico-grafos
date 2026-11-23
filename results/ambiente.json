@@ -1,0 +1,20 @@
+{
+  "cpu": {
+    "nome": "AMD Ryzen 5 5600GT with Radeon Graphics",
+    "nucleos": 6,
+    "threads": 12
+  },
+  "ram_total_gb": 16.0,
+  "ram_fisica_disponivel_gb": 15.37,
+  "sistema_operacional": "Windows 11 (Build 26300 / AMD64)",
+  "python_versao": "3.14.7",
+  "pacotes": {
+    "numpy": "2.5.5",
+    "scipy": "1.18.1",
+    "pandas": "3.1.1",
+    "numba": "0.68.1",
+    "matplotlib": "3.11.2",
+    "igraph": "1.0.0",
+    "jupytext": "1.19.7"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "grafo_real": {
+    "n": 107614,
+    "m": 12238285,
+    "grau_medio": 227.44782277398852,
+    "L_G": 2.8603,
+    "C_G": 0.490118
+  },
+  "teorico": {
+    "L_rand": 2.135,
+    "C_rand": 0.002114,
+    "ratio_L": 1.3397,
+    "ratio_C": 231.89,
+    "sigma": 173.09
+  },
+  "empirico": {
+    "L_rand": 2.6188,
+    "C_rand": 0.002112,
+    "ratio_L": 1.0922,
+    "ratio_C": 232.08,
+    "sigma": 212.48,
+    "tempo_geracao_er_s": 3.57,
+    "tempo_clustering_s": 6.06,
+    "tempo_apl_s": 11.29
+  },
+  "conclusao_small_world": true,
+  "implicacao_pratica": "Alta coesão comunitária local (círculos sociais densos) aliada a caminhos mínimos globais ultra-curtos (baixo diâmetro e baixo APL)."
+}

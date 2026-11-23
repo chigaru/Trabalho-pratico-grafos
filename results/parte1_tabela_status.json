@@ -1,0 +1,98 @@
+[
+  {
+    "Métrica da Parte I":"Número de vértices (n)",
+    "Status":"Calculado",
+    "Valor Obtido":"107,614",
+    "Método e Justificativa Metodológica":"Exato via dimensão da CSR (107.614 nós na GCC)."
+  },
+  {
+    "Métrica da Parte I":"Número de arestas (m)",
+    "Status":"Calculado",
+    "Valor Obtido":"12,238,285",
+    "Método e Justificativa Metodológica":"Exato via contagem simples de arestas não-dirigidas (12.238.285)."
+  },
+  {
+    "Métrica da Parte I":"Grau mínimo",
+    "Status":"Calculado",
+    "Valor Obtido":"1",
+    "Método e Justificativa Metodológica":"Exato: nenhum nó é isolado na GCC (grau mín = 1)."
+  },
+  {
+    "Métrica da Parte I":"Grau médio",
+    "Status":"Calculado",
+    "Valor Obtido":"227.45",
+    "Método e Justificativa Metodológica":"Exato: 2m\/n = 227,45 conexões médias por indivíduo."
+  },
+  {
+    "Métrica da Parte I":"Grau máximo",
+    "Status":"Calculado",
+    "Valor Obtido":"20,127",
+    "Método e Justificativa Metodológica":"Exato: maior hub da rede possui 20.127 vizinhos diretos."
+  },
+  {
+    "Métrica da Parte I":"Distribuição de graus",
+    "Status":"Calculado",
+    "Valor Obtido":"Histograma + CCDF log-log",
+    "Método e Justificativa Metodológica":"Exato: função densidade e CCDF geradas em figures\/distribuicao_graus.png."
+  },
+  {
+    "Métrica da Parte I":"Densidade da rede",
+    "Status":"Calculado",
+    "Valor Obtido":"2.113572e-03",
+    "Método e Justificativa Metodológica":"Exato: 2m \/ (n(n-1)) = 0,002114 (~0,21% dos pares conectados)."
+  },
+  {
+    "Métrica da Parte I":"Número de componentes conexas",
+    "Status":"Calculado",
+    "Valor Obtido":"1",
+    "Método e Justificativa Metodológica":"Exato: a GCC abrange 100% dos nós originais do dataset."
+  },
+  {
+    "Métrica da Parte I":"Tamanho de cada componente",
+    "Status":"Calculado",
+    "Valor Obtido":"GCC: 107,614 nós (100,00%)",
+    "Método e Justificativa Metodológica":"Exato: componente gigante única com todos os 107.614 nós."
+  },
+  {
+    "Métrica da Parte I":"Diâmetro",
+    "Status":"Estimado (Limite Inferior)",
+    "Valor Obtido":"≥ 6 (SNAP: 6)",
+    "Método e Justificativa Metodológica":"All-pairs exato inviável (1,3×10¹² ops). Double-sweep BFS em Numba atinge diâmetro exato 6 do SNAP."
+  },
+  {
+    "Métrica da Parte I":"Raio",
+    "Status":"Estimado (Intervalo Rigoroso)",
+    "Valor Obtido":"3 ≤ r ≤ 4",
+    "Método e Justificativa Metodológica":"All-pairs exato inviável. Como D ≥ 6, temos r ≥ ⌈D\/2⌉ = 3; amostragem de excentricidades (k=1.000) dá limite superior 4. Logo, 3 ≤ r ≤ 4."
+  },
+  {
+    "Métrica da Parte I":"Comprimento médio dos caminhos (APL)",
+    "Status":"Estimado (Amostrado)",
+    "Valor Obtido":"2.8603 ± 0.0175 (IC 95%)",
+    "Método e Justificativa Metodológica":"All-pairs inviável. BFS em Numba com k=1.000 fontes aleatórias (semente 42); erro amostral ≈ 0,6% (margem ±0,0175 \/ 2,8603)."
+  },
+  {
+    "Métrica da Parte I":"Clusterização média (C=0 se grau < 2)",
+    "Status":"Calculado",
+    "Valor Obtido":"0.490118 (SNAP: 0,4901)",
+    "Método e Justificativa Metodológica":"Exato no grafo completo via Numba paralelo; idêntico ao igraph (mode='zero') e validação SNAP."
+  },
+  {
+    "Métrica da Parte I":"Clusterização média (nós k<2 excluídos)",
+    "Status":"Calculado",
+    "Valor Obtido":"0.516461",
+    "Método e Justificativa Metodológica":"Exato: média restrita aos vértices com grau ≥ 2 (idêntico ao igraph mode='nan')."
+  },
+  {
+    "Métrica da Parte I":"Número total de triângulos",
+    "Status":"Calculado",
+    "Valor Obtido":"1,073,677,742",
+    "Método e Justificativa Metodológica":"Exato no grafo completo via interseção CSR Numba; bate rigorosamente com o SNAP (1.073.677.742)."
+  },
+  {
+    "Métrica da Parte I":"Visualização reduzida do grafo",
+    "Status":"Calculado",
+    "Valor Obtido":"643 nós, 72,064 arestas",
+    "Método e Justificativa Metodológica":"Ego-network induzida de hub com grau ~640 plotada via Fruchterman-Reingold em figures\/."
+  }
+]

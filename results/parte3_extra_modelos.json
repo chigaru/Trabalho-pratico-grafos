@@ -1,0 +1,129 @@
+{
+  "modelos": {
+    "ER": {
+      "n": 107614,
+      "m": 12238285,
+      "deg_mean": 227.45,
+      "deg_max": 317,
+      "L": 2.6165,
+      "C": 0.002112,
+      "gamma": "N/A (ajuste inválido: kmin=10 abaixo do suporte do modelo)",
+      "gamma_note": "ER não apresenta cauda pesada; gamma fora do regime scale-free",
+      "t_gen_s": 1.85,
+      "t_apl_s": 57.88,
+      "t_clust_s": 5.17,
+      "mem_csr_mb": 94.2
+    },
+    "BA": {
+      "n": 107614,
+      "m": 12261441,
+      "deg_mean": 227.88,
+      "deg_max": 5113,
+      "L": 2.4738,
+      "C": 0.011384,
+      "gamma": "N/A (ajuste inválido: kmin=10 abaixo do suporte do modelo, γ teórico = 3)",
+      "gamma_ks": "N/A (ajuste inválido: kmin=10 abaixo do suporte do modelo)",
+      "t_gen_s": 2.49,
+      "t_apl_s": 50.67,
+      "t_clust_s": 33.22,
+      "mem_csr_mb": 94.4
+    },
+    "WS_b0.01": {
+      "n": 107614,
+      "m": 12267723,
+      "deg_mean": 227.99,
+      "deg_max": 235,
+      "L": 3.3069,
+      "C": 0.72463,
+      "beta": 0.01,
+      "gamma": "N/A (WS não produz cauda pesada)",
+      "t_gen_s": 1.09,
+      "t_apl_s": 20.39,
+      "t_clust_s": 1.35,
+      "mem_csr_mb": 94.4
+    },
+    "WS_b0.1": {
+      "n": 107614,
+      "m": 12265488,
+      "deg_mean": 227.95,
+      "deg_max": 249,
+      "L": 2.9065,
+      "C": 0.544847,
+      "beta": 0.1,
+      "gamma": "N/A (WS não produz cauda pesada)",
+      "t_gen_s": 1.37,
+      "t_apl_s": 37.26,
+      "t_clust_s": 2.26,
+      "mem_csr_mb": 94.4
+    },
+    "WS_b0.5": {
+      "n": 107614,
+      "m": 12258202,
+      "deg_mean": 227.82,
+      "deg_max": 269,
+      "L": 2.6917,
+      "C": 0.095132,
+      "beta": 0.5,
+      "gamma": "N/A (WS não produz cauda pesada)",
+      "t_gen_s": 1.93,
+      "t_apl_s": 51.43,
+      "t_clust_s": 4.09,
+      "mem_csr_mb": 94.3
+    },
+    "Real": {
+      "n": 107614,
+      "m": 12238285,
+      "deg_mean": 227.45,
+      "deg_max": 20127,
+      "L": 2.8603,
+      "C": 0.490118,
+      "gamma": "~4.56 (Clauset kmin=4496, cauda 0.3%)"
+    }
+  },
+  "validacao_igraph_n2000": {
+    "ER": {
+      "n": 2000,
+      "m_manual": 227447,
+      "m_igraph": 227447,
+      "match_m": true,
+      "C_manual": 0.113713,
+      "C_igraph": 0.113713,
+      "match_C": true,
+      "deg_mean_igraph": 227.45
+    },
+    "BA": {
+      "n": 2000,
+      "m_manual": 221445,
+      "m_igraph": 221445,
+      "match_m": true,
+      "C_manual": 0.212181,
+      "C_igraph": 0.212181,
+      "match_C": true,
+      "deg_mean_igraph": 221.44
+    },
+    "WS": {
+      "n": 2000,
+      "m_manual": 225565,
+      "m_igraph": 225565,
+      "match_m": true,
+      "C_manual": 0.569532,
+      "C_igraph": 0.569532,
+      "match_C": true,
+      "deg_mean_igraph": 225.56
+    }
+  },
+  "parametros": {
+    "n": 107614,
+    "m_real": 12238285,
+    "m_attach_BA": 114,
+    "k_WS": 228,
+    "betas_WS": [
+      0.01,
+      0.1,
+      0.5
+    ],
+    "seed": 42,
+    "k_APL": 1000
+  },
+  "tempo_total_s": 285.26
+}

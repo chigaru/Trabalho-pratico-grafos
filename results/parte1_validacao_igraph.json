@@ -1,0 +1,11 @@
+{
+  "igraph_clustering_zero": 0.490118,
+  "igraph_clustering_nan": 0.516461,
+  "diff_clustering_zero": 1.3322676295501878e-15,
+  "diff_clustering_nan": 1.5543122344752192e-15,
+  "clustering_match": true,
+  "val_sources_tested": 5,
+  "bfs_distance_differences": 0,
+  "bfs_distances_match": true,
+  "tempo_validacao_s": 56.65
+}

@@ -1,0 +1,50 @@
+{
+  "eulerianidade": {
+    "conexo": true,
+    "nos_grau_impar": 55624,
+    "nos_grau_par": 51990,
+    "e_euleriano": false,
+    "tem_caminho_euleriano": false,
+    "conclusao": "Grafo não-euleriano: embora conexo, possui 55.624 vértices de grau ímpar (exigência: 0)."
+  },
+  "dijkstra_pesos_1_vs_bfs": {
+    "diff_maxima": 0,
+    "match": true
+  },
+  "bfs_vs_igraph": {
+    "fontes_testadas": [
+      0,
+      42,
+      100
+    ],
+    "max_diff_por_fonte": [
+      0,
+      0,
+      0
+    ],
+    "match": true
+  },
+  "floyd_warshall_vs_dijkstra": {
+    "subgrafo_n": 200,
+    "match": true
+  },
+  "bellman_ford_vs_dijkstra": {
+    "subgrafo_n": 200,
+    "rounds_convergencia": 3,
+    "match": true
+  },
+  "mst_prim_kruskal_scipy": {
+    "subgrafo_n": 200,
+    "peso_prim": 202,
+    "peso_kruskal": 202,
+    "peso_scipy": 202,
+    "match": true
+  },
+  "tarjan_scc": {
+    "total_sccs": 37801,
+    "maior_scc": 69501,
+    "maior_scc_snap": 69501,
+    "fracao_scc_pct": 64.58,
+    "match_snap": true
+  }
+}

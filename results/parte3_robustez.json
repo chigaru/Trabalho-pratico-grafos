@@ -1,0 +1,71 @@
+{
+  "n_original": 107614,
+  "r_removidos": 5381,
+  "fracao_removida_pct": 5.0,
+  "base": {
+    "fracao_gcc": 1.0,
+    "num_componentes": 1,
+    "apl_gcc": 2.8611553436852426,
+    "diametro_gcc": 6,
+    "fracao_isolados": 0.0,
+    "gcc_nos": 107614,
+    "nos_isolados": 0
+  },
+  "aleatorio_30_reps": {
+    "fracao_gcc": {
+      "mean": 0.9474117370106739,
+      "std": 0.002259201864569573,
+      "min": 0.9416061107290873,
+      "max": 0.9498485327187912
+    },
+    "fracao_gcc_restante": {
+      "mean": 0.9972784391210926,
+      "std": 0.002378114204354657
+    },
+    "num_componentes": {
+      "mean": 275.9,
+      "std": 241.27411081946636,
+      "min": 17,
+      "max": 902
+    },
+    "apl_gcc": {
+      "mean": 2.880076333905847,
+      "std": 0.038094692067124354
+    },
+    "diametro_gcc": {
+      "mean": 7.133333333333334,
+      "std": 0.8995528902176073,
+      "min": 6,
+      "max": 9
+    },
+    "fracao_isolados": {
+      "mean": 0.0026622193094858475,
+      "std": 0.002340838556136261
+    }
+  },
+  "ataque_grau": {
+    "fracao_gcc": 0.8851450554760533,
+    "fracao_gcc_restante": 0.9317343714847456,
+    "num_componentes": 6890,
+    "apl_gcc": 3.6184524371935782,
+    "diametro_gcc": 11,
+    "fracao_isolados": 0.06667123140277602,
+    "fracao_isolados_total": 0.06333748397048711,
+    "gcc_nos": 95254,
+    "nos_isolados": 6816,
+    "tempo_s": 4.36
+  },
+  "ataque_betweenness": {
+    "fracao_gcc": 0.8483189919527199,
+    "fracao_gcc_restante": 0.8929699803390295,
+    "num_componentes": 10582,
+    "apl_gcc": 3.7416860554277567,
+    "diametro_gcc": 14,
+    "fracao_isolados": 0.10210010466287793,
+    "fracao_isolados_total": 0.09699481480104818,
+    "gcc_nos": 91291,
+    "nos_isolados": 10438,
+    "tempo_betweenness_s": 21.66
+  },
+  "conclusao_apendice_c": "A rede G2 demonstra o clássico fenômeno de robustez diferencial: altamente resiliente a falhas aleatórias (S_rand = 94.74%, onde a GCC praticamente preserva 99.73% dos nós ativos e apenas 276 componentes se formam), mas marcadamente vulnerável a ataques direcionados aos nós centrais (S_cent_grau = 88.51% com 6,890 componentes; e S_cent_bet = 84.83% com 10,582 componentes). O ataque por Betweenness Centrality fragmenta a rede ainda mais drasticamente, gerando 10,438 nós isolados e elevando o diâmetro para 14."
+}

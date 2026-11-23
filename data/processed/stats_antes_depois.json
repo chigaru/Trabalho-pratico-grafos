@@ -1,0 +1,26 @@
+{
+  "antes": {
+    "total_linhas_lidas": 30494866,
+    "linhas_duplicadas": 16821413,
+    "self_loops": 0,
+    "vertices_unicos": 107614,
+    "arcos_dirigidos_unicos": 13673453,
+    "pares_reciprocos": 1435168,
+    "taxa_reciprocidade_arcos_pct": 20.99
+  },
+  "depois": {
+    "vertices_gcc": 107614,
+    "arestas_nao_dirigidas_gcc": 12238285,
+    "fracao_gcc_pct": 100.0,
+    "num_componentes_conexas": 1,
+    "densidade": 0.0021135719919897085,
+    "grau_minimo": 1,
+    "grau_medio": 227.45,
+    "grau_maximo": 20127
+  },
+  "meta": {
+    "tempo_leitura_s": 49.15,
+    "tempo_total_s": 80.74,
+    "max_lines": null
+  }
+}

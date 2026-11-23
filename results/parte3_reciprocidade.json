@@ -1,0 +1,44 @@
+{
+  "digrafo": {
+    "n": 107614,
+    "arcos": 13673453
+  },
+  "reciprocidade_global": {
+    "pares_reciprocos": 1435168,
+    "arcos_em_lacos_bidirecionais": 2870336,
+    "fracao_arcos_reciprocos": 0.20992,
+    "fracao_pct": 20.99
+  },
+  "validacao_interna": {
+    "arcos_unicos_menos_pares": 12238285,
+    "m_undirected_esperado": 12238285,
+    "fechou": true
+  },
+  "baseline_aleatorio": {
+    "densidade_digrafo": 0.00118071,
+    "reciprocidade_esperada_aleatoria": 0.00118071,
+    "razao_observado_esperado": 177.79
+  },
+  "graus_dirigidos": {
+    "in_degree_medio": 127.06,
+    "out_degree_medio": 127.06,
+    "in_degree_max": 17055,
+    "out_degree_max": 5056,
+    "correlacao_in_out": 0.3207
+  },
+  "reciprocidade_por_no": {
+    "nos_reciprocidade_total": 4391,
+    "frac_reciprocidade_total_pct": 4.08,
+    "nos_sem_reciprocidade": 6943,
+    "frac_sem_reciprocidade_pct": 6.45
+  },
+  "scc": {
+    "total_sccs": 37801,
+    "maior_scc_nos": 69501,
+    "maior_scc_frac_pct": 64.58,
+    "arcos_reciprocos_saida_na_scc": 2868294,
+    "total_arcos_reciprocos_saida": 2870336,
+    "frac_reciprocidade_na_scc_pct": 99.93
+  },
+  "tempo_total_s": 6.32
+}

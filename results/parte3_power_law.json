@@ -1,0 +1,81 @@
+{
+  "otimo_clauset": {
+    "k_min": 4496,
+    "n_tail": 328,
+    "fraction_tail_pct": 0.3,
+    "power_law": {
+      "gamma": 4.5618,
+      "ks": 0.0318,
+      "log_likelihood": -2762.19,
+      "aic": 5526.39
+    },
+    "exponencial": {
+      "scale": 1693.85,
+      "ks": 0.0715,
+      "log_likelihood": -2766.6,
+      "aic": 5535.2,
+      "llr_vs_pl": 4.41
+    },
+    "log_normal": {
+      "mu": 5.9249,
+      "sigma": 0.919,
+      "ks": 0.0307,
+      "log_likelihood": -2761.14,
+      "aic": 5526.28,
+      "llr_vs_pl": -1.05
+    }
+  },
+  "referencia_1500": {
+    "k_min": 1500,
+    "n_tail": 3483,
+    "fraction_tail_pct": 3.24,
+    "power_law": {
+      "gamma": 2.9878,
+      "ks": 0.0652,
+      "log_likelihood": -28312.96,
+      "aic": 56627.91
+    },
+    "exponencial": {
+      "scale": 1224.59,
+      "ks": 0.0472,
+      "log_likelihood": -28248.39,
+      "aic": 56498.78,
+      "llr_vs_pl": -64.57
+    },
+    "log_normal": {
+      "mu": 7.01,
+      "sigma": 0.7526,
+      "ks": 0.0099,
+      "log_likelihood": -28205.08,
+      "aic": 56414.16,
+      "llr_vs_pl": -107.88
+    }
+  },
+  "referencia_500": {
+    "k_min": 500,
+    "n_tail": 12355,
+    "fraction_tail_pct": 11.48,
+    "power_law": {
+      "gamma": 2.2551,
+      "ks": 0.0787,
+      "log_likelihood": -96160.29,
+      "aic": 192322.58
+    },
+    "exponencial": {
+      "scale": 877.35,
+      "ks": 0.0859,
+      "log_likelihood": -96083.71,
+      "aic": 192169.42,
+      "llr_vs_pl": -76.58
+    },
+    "log_normal": {
+      "mu": 6.1351,
+      "sigma": 1.0327,
+      "ks": 0.0155,
+      "log_likelihood": -95597.96,
+      "aic": 191199.91,
+      "llr_vs_pl": -562.33
+    }
+  },
+  "conclusao_diagnostica": "A rede G2 (ego-Gplus) NÃO é uma lei de potência pura no sentido estrito. A distribuição de graus apresenta curvatura acentuada em escala log-log com queda pronunciada para k > 10^3. Na varredura de Clauset, o mínimo KS ocorre em k_min = 4.496 onde gamma = 4.56, valor atipicamente elevado (fora do intervalo 2 < gamma < 3). Para regimes de cauda intermediários (k_min = 500 e 1500), a distribuição Log-Normal supera a Lei de Potência por ampla margem (menor KS, maior verossimilhança e menor AIC), confirmando que a rede social é melhor descrita por um corpo log-normal com corte acentuado."
+}

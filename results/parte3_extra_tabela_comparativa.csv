@@ -1,0 +1,7 @@
+Modelo,n,m,<k>,k_max,L (amostr.),C médio,γ (Clauset)
+Real,107614,12238285,227.45,20127,2.8603,0.490118,"~4.56 (Clauset kmin=4496, cauda 0.3%)"
+ER,107614,12238285,227.45,317,2.6165,0.002112,"N/A (ajuste inválido: kmin=10 abaixo do suporte do modelo)"
+BA,107614,12261441,227.88,5113,2.4738,0.011384,"N/A (ajuste inválido: kmin=10 abaixo do suporte do modelo, γ teórico = 3)"
+WS_b0.01,107614,12267723,227.99,235,3.3069,0.72463,N/A (WS não produz cauda pesada)
+WS_b0.1,107614,12265488,227.95,249,2.9065,0.544847,N/A (WS não produz cauda pesada)
+WS_b0.5,107614,12258202,227.82,269,2.6917,0.095132,N/A (WS não produz cauda pesada)

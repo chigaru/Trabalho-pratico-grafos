@@ -1,0 +1,34 @@
+# Dataset bruto e arquivos comprimidos
+gplus_combined.txt.gz
+gplus.tar.gz
+data/raw/
+*.gz
+*.tar.gz
+*.zip
+
+# Serializações pesadas (> 50 MB)
+*.pickle
+
+# Ambientes virtuais e caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+.pytest_cache/
+.jupyter/
+.matplotlib_cache/
+logs/
+
+# Figuras obsoletas e PDFs do enunciado
+figures/_obsoletas/
+TP - analisando*.pdf
+tp - analisando*.pdf
+
+CONTEXTO.md
+PLANO.md
+run_um_modelo.py
+WebMedia_Template/
+relatorio/

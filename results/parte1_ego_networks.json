@@ -1,0 +1,23 @@
+{
+  "figura_a_legivel": {
+    "descricao": "Ego-network induzida legível com todas as arestas internas",
+    "node_central_id": 8816,
+    "grau_global": 108,
+    "num_nos": 109,
+    "num_arestas": 1505,
+    "densidade": 0.255691,
+    "densidade_pct": 25.57,
+    "arquivo": "figures/visualizacao_ego_legivel.png"
+  },
+  "figura_b_denso": {
+    "descricao": "Ego-network induzida do super-hub com amostragem de 4.000 arestas",
+    "node_central_id": 2,
+    "grau_global": 642,
+    "num_nos": 643,
+    "num_arestas_total": 72064,
+    "arestas_amostradas": 4000,
+    "densidade": 0.349142,
+    "densidade_pct": 34.91,
+    "arquivo": "figures/visualizacao_ego_hub_denso.png"
+  }
+}

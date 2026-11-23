@@ -1,0 +1,5 @@
+Cenário Experimental,Fração GCC (A),Nº Componentes (B),APL GCC (C),Diâmetro GCC (C),Fração Isolados (D),Nós GCC,Nós Isolados
+Grafo Base (Intacto),100.00%,1,2.8612,6,0.00%,"107,614",0
+"Falha Aleatória (Média ± DP, T=30)",94.74% ± 0.23%,275.9 ± 241.3,2.8801 ± 0.0381,7.1 ± 0.9,0.27% ± 0.23%,"101,954",272
+Ataque Direcionado: Grau,88.51%,"6,890",3.6185,11,6.67%,"95,254","6,816"
+Ataque Direcionado: Betweenness,84.83%,"10,582",3.7417,14,10.21%,"91,291","10,438"
